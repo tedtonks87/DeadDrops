@@ -121,12 +121,12 @@ instance Yesod App where
                     , menuItemAccessCallback = isJust muser
                     }
                 , NavbarRight $ MenuItem
-                    { menuItemLabel = "Login"
+                    { menuItemLabel = "Schmogin"
                     , menuItemRoute = AuthR LoginR
                     , menuItemAccessCallback = isNothing muser
                     }
                 , NavbarRight $ MenuItem
-                    { menuItemLabel = "Logout"
+                    { menuItemLabel = "Schmogout"
                     , menuItemRoute = AuthR LogoutR
                     , menuItemAccessCallback = isJust muser
                     }
