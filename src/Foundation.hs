@@ -111,7 +111,7 @@ instance Yesod App where
         -- Define the menu items of the header.
         let menuItems =
                 [ NavbarLeft $ MenuItem
-                    { menuItemLabel = "Home"
+                    { menuItemLabel = "Gnome"
                     , menuItemRoute = HomeR
                     , menuItemAccessCallback = True
                     }
