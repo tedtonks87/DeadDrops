@@ -116,7 +116,7 @@ instance Yesod App where
                     , menuItemAccessCallback = True
                     }
                 , NavbarLeft $ MenuItem
-                    { menuItemLabel = "Profile"
+                    { menuItemLabel = "Schmofile"
                     , menuItemRoute = ProfileR
                     , menuItemAccessCallback = isJust muser
                     }
